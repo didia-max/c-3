@@ -1,0 +1,19 @@
+﻿<Window x:Class="日志读取.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:日志读取"
+        mc:Ignorable="d"
+        Title="操作员 1710243227_梁若为" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="工作区" HorizontalAlignment="Left" Height="326" Margin="67,51,0,0" VerticalAlignment="Top" Width="656">
+            <Grid HorizontalAlignment="Left" Height="316" Margin="0,0,-2.8,-12.8" VerticalAlignment="Top" Width="646">
+                <Button Content="操作一" HorizontalAlignment="Left" Margin="266,76,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+                <Button Content="操作二" HorizontalAlignment="Left" Margin="266,141,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+                <Button Content="操作三" HorizontalAlignment="Left" Margin="266,217,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+            </Grid>
+        </GroupBox>
+
+    </Grid>
+</Window>
